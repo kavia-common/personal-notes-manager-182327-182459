@@ -1,0 +1,267 @@
+/* Imports shared variables and helpers */
+@import url("./common.css");
+
+/* Root screen */
+#screen-125-171 {
+  width: 414px;
+  height: 1100px;
+  position: relative;
+  background: var(--style-0-background);
+  border-radius: var(--style-0-radius);
+  overflow: hidden;
+}
+
+/* Element styles from style refs with absolute positioning per calculated offsets */
+
+/* Rectangle 8 (style_1) */
+#el-125-175 {
+  position: absolute;
+  left: 24px;   /* 1626 - 1602 */
+  top: 143px;   /* -680 - (-823) = 143 */
+  width: 365px;
+  height: 157px;
+  background: var(--style-1-background);
+  border-radius: var(--style-1-radius);
+}
+
+/* Book Review text (typo_13) */
+#el-125-176 {
+  position: absolute;
+  left: 69px;   /* 1671 - 1602 */
+  top: 168px;   /* -655 - (-823) = 168 */
+  width: 270px;
+  height: 103px;
+}
+#el-125-176 span {
+  display: block;
+}
+
+/* Spacer text (empty) */
+#el-125-177 {
+  position: absolute;
+  left: 69px;
+  top: 190px; /* -633 - (-823) */
+  width: 0px;
+  height: 32px;
+}
+
+/* Rectangle 11 (style_3) */
+#el-125-178 {
+  position: absolute;
+  left: 24px;
+  top: 323px; /* -500 - (-823) */
+  width: 365px;
+  height: 123px;
+  background: var(--style-3-background);
+  border-radius: var(--style-3-radius);
+}
+
+/* Animes produced by Ufotable (typo_13) */
+#el-125-179 {
+  position: absolute;
+  left: 69px;
+  top: 352px; /* -471 - (-823) */
+  width: 254px;
+  height: 64px;
+}
+
+/* Rectangle 10 (style_4) */
+#el-125-180 {
+  position: absolute;
+  left: 24px;
+  top: 471px; /* -352 - (-823) */
+  width: 365px;
+  height: 110px;
+  background: var(--style-4-background);
+  border-radius: var(--style-4-radius);
+}
+
+/* Mangas planned to read (typo_13) */
+#el-125-181 {
+  position: absolute;
+  left: 69px;
+  top: 494px; /* -329 - (-823) */
+  width: 259px;
+  height: 67px;
+}
+
+/* Hero Text "Notes" (typo_14) */
+#el-125-186 {
+  position: absolute;
+  left: 24px;
+  top: 47px; /* -776 - (-823) */
+  width: 115px;
+  height: 59px;
+}
+
+/* Button 1 (style_6) */
+#el-125-187 {
+  position: absolute;
+  left: 339px; /* 1941 - 1602 */
+  top: 51px;  /* -772 - (-823) */
+  width: 50px;
+  height: 50px;
+  background: var(--style-6-background);
+  border-radius: var(--style-6-radius);
+}
+
+/* info_outline component group wrapper */
+#el-125-188 {
+  position: absolute;
+  left: 352px; /* 1954 - 1602 */
+  top: 64px;  /* -759 - (-823) */
+  width: 24px;
+  height: 24px;
+}
+/* Inner group acts as relative container for icons */
+#el-I125-188-8-7 {
+  position: relative;
+  width: 24px;
+  height: 24px;
+}
+/* Icon vectors inside info_outline */
+#el-I125-188-8-8 {
+  position: absolute;
+  left: 0px; /* 1954 - 1954 */
+  top: 0px;  /* -759 - (-759) */
+  width: 24px;
+  height: 24px;
+}
+#el-I125-188-8-9 {
+  position: absolute;
+  left: 2px; /* 1956 - 1954 */
+  top: 2px;  /* -757 - (-759) */
+  width: 20.0000019073px;
+  height: 20px;
+  background: var(--style-5-background);
+}
+
+/* Button 4 (style_6) */
+#el-125-189 {
+  position: absolute;
+  left: 268px; /* 1870 - 1602 */
+  top: 51px;  /* -772 - (-823) */
+  width: 50px;
+  height: 50px;
+  background: var(--style-6-background);
+  border-radius: var(--style-6-radius);
+}
+
+/* search component wrapper */
+#el-125-190 {
+  position: absolute;
+  left: 281px; /* 1883 - 1602 */
+  top: 64px;  /* -759 - (-823) */
+  width: 24px;
+  height: 24px;
+}
+/* search icon vectors */
+#el-I125-190-8-11 {
+  position: absolute;
+  left: 0px; /* 1883 - 1883 */
+  top: 0px;  /* -759 - (-759) */
+  width: 24px;
+  height: 24px;
+}
+#el-I125-190-8-12 {
+  position: absolute;
+  left: 2.9993896484px; /* 1885.9994 - 1883 */
+  top: 2.9993896484px;  /* -756.0006 - (-759) */
+  width: 17.0481281281px;
+  height: 17.0581245422px;
+  background: var(--style-5-background);
+}
+
+/* Rectangle 13 (style_7) */
+#el-136-37 {
+  position: absolute;
+  left: 24px;
+  top: 606px; /* -217 - (-823) */
+  width: 365px;
+  height: 120px;
+  background: var(--style-7-background);
+  border-radius: var(--style-7-radius);
+}
+
+/* Rectangle 9 (style_8) */
+#el-136-38 {
+  position: absolute;
+  left: 24px;
+  top: 751px; /* -72 - (-823) */
+  width: 365px;
+  height: 100px;
+  background: var(--style-8-background);
+  border-radius: var(--style-8-radius);
+}
+
+/* Awesome tweets collection (typo_13) */
+#el-136-39 {
+  position: absolute;
+  left: 69px;
+  top: 632px; /* -191 - (-823) */
+  width: 287px;
+  height: 68px;
+}
+
+/* List of free & open source apps (typo_13) */
+#el-136-40 {
+  position: absolute;
+  left: 69px;
+  top: 768px; /* -55 - (-823) */
+  width: 297px;
+  height: 66px;
+}
+
+/* Ellipse 1 (style_39 shadows) */
+#el-125-191 {
+  position: absolute;
+  left: 309px; /* 1911 - 1602 */
+  top: 777px;  /* -46 - (-823) */
+  width: 70px;
+  height: 70px;
+  background: var(--style-39-background);
+  border-radius: 50%;
+  box-shadow: var(--shadow-0), var(--shadow-1);
+}
+
+/* add component wrapper */
+#el-125-192 {
+  position: absolute;
+  left: 320px; /* 1922 - 1602 */
+  top: 788px;  /* -35 - (-823) */
+  width: 48px;
+  height: 48px;
+}
+/* add icon vectors */
+#el-I125-192-115-18 {
+  position: absolute;
+  left: 0px; /* 1922 - 1922 */
+  top: 0px;  /* -35 - (-35) */
+  width: 48px;
+  height: 48px;
+}
+#el-I125-192-115-19 {
+  position: absolute;
+  left: 10px; /* 1932 - 1922 */
+  top: 10px;  /* -25 - (-35) */
+  width: 28px;
+  height: 28px;
+  background: var(--style-5-background);
+}
+
+/* Typography applications */
+#el-125-176, #el-125-179, #el-125-181, #el-136-39, #el-136-40 { color: var(--typo-13-color); }
+#el-125-176, #el-125-179, #el-125-181, #el-136-39, #el-136-40,
+#el-125-186 {
+  /* Ensure crisp text rendering */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Specific text styles */
+#el-125-176 { font: var(--typo-13-weight) var(--typo-13-size)/var(--typo-13-line-height) var(--typo-13-family); }
+#el-125-179 { font: var(--typo-13-weight) var(--typo-13-size)/var(--typo-13-line-height) var(--typo-13-family); }
+#el-125-181 { font: var(--typo-13-weight) var(--typo-13-size)/var(--typo-13-line-height) var(--typo-13-family); }
+#el-136-39 { font: var(--typo-13-weight) var(--typo-13-size)/var(--typo-13-line-height) var(--typo-13-family); }
+#el-136-40 { font: var(--typo-13-weight) var(--typo-13-size)/var(--typo-13-line-height) var(--typo-13-family); }
+#el-125-186 { font: var(--typo-14-weight) var(--typo-14-size)/var(--typo-14-line-height) var(--typo-14-family); color: var(--typo-14-color); }
